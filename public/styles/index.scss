@@ -1,0 +1,29 @@
+$top-spacer: 2rem;
+$btn-bg: #734DF9;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    background-color: #FAFAFA;
+}
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+@mixin linkReset {
+    text-decoration: none;
+    color: #000;
+}
+
+@import "./header";
+@import "./search";
+@import "./main";

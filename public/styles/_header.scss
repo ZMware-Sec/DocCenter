@@ -1,0 +1,28 @@
+header{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a{
+        @include linkReset;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    nav{
+        ul{
+            list-style-type: none;
+            li{
+                float: left;
+            }
+            a{
+                display: inline-block;
+                font-size: 1rem;
+                font-weight: 400;
+                padding: .5rem 1rem;
+                &:hover{
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}

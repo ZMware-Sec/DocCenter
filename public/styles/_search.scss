@@ -1,0 +1,27 @@
+#search{
+    width: 100%;
+    background-color: red;
+    margin-top: $top-spacer;
+    form{
+        label{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            border: 1px solid #B3B5BA;
+            input, button{
+                font-size: 1rem;
+                border: none;
+                padding: .5rem 1rem;
+            }
+            input{
+                width: 80%;
+            }
+            button{
+                width: 20%;
+                cursor: pointer;
+                color: #fff;
+                background-color: $btn-bg;
+            }
+        }
+    }
+}
