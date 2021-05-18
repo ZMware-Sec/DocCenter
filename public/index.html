@@ -5,8 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentation Center 📚</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- my css -->
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <h3>Doc-Center</h3>
+            <nav>
+                <ul>
+                    <li><a href="#">DevOps</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Power Platform</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="search">
+            <form>
+                <label>
+                    <input type="text" placeholder="Look for a resource">
+                    <button>Search</button>
+                </label>
+            </form>
+        </section>
+        <main>
+            <h1>Documentation Center 📚</h1>
+            <p>All the Documentation we need (Security, Power Platform, DevOps, ...) in one place.</p>
+            <div id="categories-grid-container">
+                <div class="card">
+                    <div class="c-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <a href="#">DevOps</a>
+                    </div>
+                    <div class="c-body">
+                        Documentation and useful links related to DevOps
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="c-header">
+                        <i class="fas fa-bug"></i>
+                        <a href="#">Security</a>
+                    </div>
+                    <div class="c-body">
+                        Documentation related to security (App Sec, Network Sec, ...)
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="c-header">
+                        <i class="fab fa-windows"></i>
+                        <a href="#">Power Platform</a>
+                    </div>
+                    <div class="c-body">
+                        Links and docs related to Power Apps, Power VA, Power BI and Power Automate
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- end of container -->
+    </div>
 </body>
 </html>
