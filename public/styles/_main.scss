@@ -14,7 +14,7 @@ main{
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 1rem;
         .card{
-            padding: 1rem;
+            padding: 1rem 2rem;
             text-align: center;
             box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, .1);
             .c-header{

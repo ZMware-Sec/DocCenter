@@ -18,6 +18,29 @@ html, body{
     max-width: 1000px;
     margin: auto;
 }
+#githubProject{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #734DF9;
+    padding: .5rem;
+    border-radius: 50%;
+    &:hover::after{
+        content: "GitHub Project";
+        position: absolute;
+        width: 110px;
+        bottom: 60px;
+        right: 10px;
+        background-color: rgb(97, 97, 97);
+        color: #fff;
+        padding: .2rem .4rem;
+        border-radius: 1rem;
+    }
+    i{
+        font-size: 2rem;
+        color: #fff;
+    }
+}
 
 @mixin linkReset {
     text-decoration: none;

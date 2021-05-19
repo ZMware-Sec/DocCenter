@@ -18,6 +18,32 @@ html, body {
   margin: auto;
 }
 
+#githubProject {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #734DF9;
+  padding: .5rem;
+  border-radius: 50%;
+}
+
+#githubProject:hover::after {
+  content: "GitHub Project";
+  position: absolute;
+  width: 110px;
+  bottom: 60px;
+  right: 10px;
+  background-color: #616161;
+  color: #fff;
+  padding: .2rem .4rem;
+  border-radius: 1rem;
+}
+
+#githubProject i {
+  font-size: 2rem;
+  color: #fff;
+}
+
 header {
   padding: 1rem 0;
   display: -webkit-box;
@@ -115,7 +141,7 @@ main #categories-grid-container {
 }
 
 main #categories-grid-container .card {
-  padding: 1rem;
+  padding: 1rem 2rem;
   text-align: center;
   -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
           box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
